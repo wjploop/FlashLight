@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/light_off"
+    tools:context=".MainActivity"
+    >
+
+    <RelativeLayout
+        android:id="@+id/light_on_bg"
+        android:background="@mipmap/light_on"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </RelativeLayout>
+
+
+    <!--<TextView-->
+    <!--android:id="@+id/rate_tv"-->
+    <!--android:text="1"-->
+    <!--android:gravity="center"-->
+    <!--android:padding="3dp"-->
+    <!--android:textSize="18sp"-->
+    <!--android:textColor="#fff"-->
+    <!--android:background="@mipmap/rate_text_view_bg"-->
+    <!--android:backgroundTintMode="src_over"-->
+    <!--android:layout_alignParentTop="true"-->
+    <!--android:layout_marginTop="168dp"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:layout_width="36dp"-->
+    <!--android:layout_height="wrap_content" />-->
+
+    <!--<android.support.v7.widget.RecyclerView-->
+    <!--android:id="@+id/rate_scroller"-->
+    <!--android:layout_alignParentTop="true"-->
+    <!--android:layout_marginTop="210dp"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:layout_width="140dp"-->
+    <!--android:layout_height="60dp">-->
+    <!--</android.support.v7.widget.RecyclerView>-->
+    <!---->
+    <!---->
+    <com.dionly.flashlight.LightSwitch
+        android:id="@+id/light_switch"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="73dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <!---->
+    <!--<Switch-->
+        <!--android:id="@+id/light_switch"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:layout_marginBottom="73dp"-->
+        <!--android:background="@drawable/light_switch"-->
+        <!--android:layout_width="80dp"-->
+        <!--android:layout_height="150dp">-->
+    <!--</Switch>-->
+
+</RelativeLayout>
